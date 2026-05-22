@@ -3,7 +3,7 @@
 <h2>Movies in this list</h2>
 
 <% @list.bookmarks.each do |bookmark| %>
-  <p>
+  <ul>
     🎬 <%= bookmark.movie.title %> — <%= bookmark.comment %>
-  </p>
+  </ul>
 <% end %>
